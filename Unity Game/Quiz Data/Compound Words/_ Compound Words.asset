@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10b0c284416a244ab47540ae4a7c184, type: 3}
+  m_Name: _ Compound Words
+  m_EditorClassIdentifier: 
+  mImageAndNameDataSet:
+  - mName: Airplane
+    mImage: {fileID: 21300000, guid: 2c2fb8673a0951b41bbd15b73e361261, type: 3}
+    mAudioClip: {fileID: 8300000, guid: e02fe29fc38064f4d99b7ee967b11d2a, type: 3}
+  - mName: Baseball
+    mImage: {fileID: 21300000, guid: e6973ad9c59a13845b282211f8b6840f, type: 3}
+    mAudioClip: {fileID: 8300000, guid: bf73d8421bb87f74bb6f1f545ba6e831, type: 3}
+  - mName: Bathtub
+    mImage: {fileID: 21300000, guid: f35f1756b75602e4f85d1148d1ed3132, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 9628d8e97b6e41f4ea83fb017b7e349d, type: 3}
+  - mName: Birdhouse
+    mImage: {fileID: 21300000, guid: c1ec7d8a046bebb4da01fe04394dcab6, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 94cf328ce334d944d97d24d341129666, type: 3}
+  - mName: Blue Ball
+    mImage: {fileID: 21300000, guid: 40928781286d4774bbb0d4680e6e13e4, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 738a505b9960208498cee8cd19b807c0, type: 3}
+  - mName: Blueberry
+    mImage: {fileID: 21300000, guid: ac4faee300e1b864c9f194f59664b3e7, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 6b3a812eb7a21ac48885df75da4b12b9, type: 3}
+  - mName: Butterfly
+    mImage: {fileID: 21300000, guid: 8bce49d03d3447b4684db96f30ff974d, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 0027fa85e6c27d14ab51fefbe042a482, type: 3}
+  - mName: Candlestick
+    mImage: {fileID: 21300000, guid: f87f7833a9910404bbf9c0ec0e996404, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 09f76d33f08a4e24b8bf510fee756371, type: 3}
+  - mName: Catfish
+    mImage: {fileID: 21300000, guid: 00c98d095fb556c4e91b8b319a33c7bd, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 34f63abf49b5343499a1423fb23dc273, type: 3}
+  - mName: Chocolatechip
+    mImage: {fileID: 21300000, guid: c478e4c6ce925a24c99e0e17826d2d3b, type: 3}
+    mAudioClip: {fileID: 8300000, guid: bd6957d9bce82da46bfd2953ac01e4a4, type: 3}
+  - mName: Cupcake
+    mImage: {fileID: 21300000, guid: 533c69c26adcb9042957f729d9c5c41a, type: 3}
+    mAudioClip: {fileID: 8300000, guid: ac7018ba80db568449490d8631ca443a, type: 3}
+  - mName: Desktop
+    mImage: {fileID: 21300000, guid: 51aaa84e67730f64e9629a87a41898fc, type: 3}
+    mAudioClip: {fileID: 8300000, guid: ece2f161bedff7746bdbe168598a90ad, type: 3}
+  - mName: Dog House
+    mImage: {fileID: 21300000, guid: a4049b42556f6e5469088f2cd8561f9c, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 11a8e70767d4a444888661fb6f272fb4, type: 3}
+  - mName: Dustbin
+    mImage: {fileID: 21300000, guid: 4ba5dbde662deb246bcd588f0a522402, type: 3}
+    mAudioClip: {fileID: 8300000, guid: f3b7894cae0f7de45a81586571b676c9, type: 3}
+  - mName: Earthworm
+    mImage: {fileID: 21300000, guid: 31effa69932486d448e53b0487e962c4, type: 3}
+    mAudioClip: {fileID: 8300000, guid: a5b2584d3a4df974e831ca908166571a, type: 3}
+  - mName: Eyebrow
+    mImage: {fileID: 21300000, guid: 13985ba57a06aad4d860d9295208b69d, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 89f6e76c5e1cfd843b64f3a90ab4f79a, type: 3}
+  - mName: Firefighter
+    mImage: {fileID: 21300000, guid: 7b9d63b35996a0443847f5eba1e1221c, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 9437c3fa453c56e42866725798f5aead, type: 3}
+  - mName: Fisherman
+    mImage: {fileID: 21300000, guid: 62f0dac8329b1f446b5a3909e3650e43, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 8f2daf963e20cd04797e843e708c6a92, type: 3}
+  - mName: Football
+    mImage: {fileID: 21300000, guid: b404250c449a89b4eb66fa8e6ec05375, type: 3}
+    mAudioClip: {fileID: 8300000, guid: f89380752c3125249b2db88fc46d4ea5, type: 3}
+  - mName: Frenchfries
+    mImage: {fileID: 21300000, guid: c0418c7baf7e3704987f2c89e91432d8, type: 3}
+    mAudioClip: {fileID: 8300000, guid: c51a000b2093188459581363154f3c8b, type: 3}
+  - mName: Goldfish
+    mImage: {fileID: 21300000, guid: 6fc2d4b014d0fbb4393ca2c8e70be4a4, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 15d3852907ce9a64b9ccc6d4793da2e4, type: 3}
+  - mName: Grand Father
+    mImage: {fileID: 21300000, guid: 8b3144d41a3cd35488ac6143a1bba7ca, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 881da40fb1513bf4186eeccd7018ae81, type: 3}
+  - mName: Hair Band
+    mImage: {fileID: 21300000, guid: adf8cf08138665d4085dab94673f494c, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 643405b4dcf96b44e9b44440f30181da, type: 3}
+  - mName: Hamburger
+    mImage: {fileID: 21300000, guid: f9675481b7b72ed409f4d828abb0ca5c, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 673cde19c45a6f9488e4a3c880fe3026, type: 3}
+  - mName: Handbag
+    mImage: {fileID: 21300000, guid: bfd8bcbb474173646b736960dac6db76, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 8a1e9edf0cd6a4c4da2f090e27fd374b, type: 3}
+  - mName: Handshake
+    mImage: {fileID: 21300000, guid: 8d2265fec69064d4eb2a66ee7bb9fb1e, type: 3}
+    mAudioClip: {fileID: 8300000, guid: a69af0066d41edc41aa6645b8ce4fecd, type: 3}
+  - mName: High Heels
+    mImage: {fileID: 21300000, guid: 00be9becfba4a084381aabe373118b78, type: 3}
+    mAudioClip: {fileID: 8300000, guid: bf8069b8dcae8f24594ec90607369b12, type: 3}
+  - mName: Hotdog
+    mImage: {fileID: 21300000, guid: bc314aded3fdb1b4c891f847e055b973, type: 3}
+    mAudioClip: {fileID: 8300000, guid: d20b407c070fa6043a18f2bade8f7aa4, type: 3}
+  - mName: Ice Cream
+    mImage: {fileID: 21300000, guid: 111f36d1d4e62e74a822d24d79868d5b, type: 3}
+    mAudioClip: {fileID: 8300000, guid: a9719d55dc086294da77b42793456a93, type: 3}
+  - mName: Key Board
+    mImage: {fileID: 21300000, guid: f75e80c5b80d428449c4bcbc8ba4c9e3, type: 3}
+    mAudioClip: {fileID: 8300000, guid: ad19d86d62897bf4492e3d44db72a747, type: 3}
+  - mName: Laptop
+    mImage: {fileID: 21300000, guid: 6455beab273f23a4cb0cc656ea4be2b3, type: 3}
+    mAudioClip: {fileID: 8300000, guid: ad99cab39ba06e84bb023c300d480bd0, type: 3}
+  - mName: Lighthouse
+    mImage: {fileID: 21300000, guid: 22eae53f9e6b26d4b8f6b1e1c3104d37, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 1ac03d4b9e73bd8478f325e362758ca7, type: 3}
+  - mName: Lip Stick
+    mImage: {fileID: 21300000, guid: 730e856bff3f2944d9d3dba1c00fd358, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 5defe3c454157644d8e9ac66d11b66c6, type: 3}
+  - mName: Mailbox
+    mImage: {fileID: 21300000, guid: e8039073efa579d438b5fbc3778d7a1b, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 56d0e21043d16c84abc20db1a1a872ae, type: 3}
+  - mName: Mailman
+    mImage: {fileID: 21300000, guid: 7bf8474ea9ef94d4d9bce75740e42675, type: 3}
+    mAudioClip: {fileID: 8300000, guid: ab85d1b90f2257a42b4f861c74209d88, type: 3}
+  - mName: Milkshake
+    mImage: {fileID: 21300000, guid: b8ccf7188f3a2194cb53268abcc6cc5b, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 321bda96e33ec8e4e9706213a8f57cfe, type: 3}
+  - mName: Movie Theater
+    mImage: {fileID: 21300000, guid: da2e5c6467f3b3549844135e261f3010, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 61ad96737a311604a929cc2020ceb0f4, type: 3}
+  - mName: Newspaper
+    mImage: {fileID: 21300000, guid: a027315ac05e5304790b2d2ebd944713, type: 3}
+    mAudioClip: {fileID: 8300000, guid: b8e7436ddc81ca84d9986e0bf5485122, type: 3}
+  - mName: Passport
+    mImage: {fileID: 21300000, guid: 8a2f1515728af3d47be8fcbe403a9189, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 6ab569fe42ea53c4d8db915eef1cfce6, type: 3}
+  - mName: Policeman
+    mImage: {fileID: 21300000, guid: cff39856c51f1ce4d8553cb833f4c0a1, type: 3}
+    mAudioClip: {fileID: 8300000, guid: cba90aabf35c60546b4de6e08116f8df, type: 3}
+  - mName: Policewoman
+    mImage: {fileID: 21300000, guid: bb53e174af242474bac57788e95c4e65, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 1cf084e38d77f7a4f8ab922c84ed92c3, type: 3}
+  - mName: Postcard
+    mImage: {fileID: 21300000, guid: e16b22445d7492446b942a7bc53f349a, type: 3}
+    mAudioClip: {fileID: 8300000, guid: f6d6834ef02a2dc43a379696cad60a83, type: 3}
+  - mName: Rainbow
+    mImage: {fileID: 21300000, guid: ccd460941fe421b489da7e31e71e227c, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 8b74d2f436d8a2540ad17f9bc88c0c0b, type: 3}
+  - mName: Raincoat
+    mImage: {fileID: 21300000, guid: d3e3db9e39f716e40b70d45c5da1a4f7, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 6090178799fa7294aac05e348a2be7e5, type: 3}
+  - mName: Red Ball
+    mImage: {fileID: 21300000, guid: 75839aa5a3490d54b8f1428217604373, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 75b435fa66d095f49b08912872da276e, type: 3}
+  - mName: Runway
+    mImage: {fileID: 21300000, guid: 882fdfbe710d22c409a8eb9c27a1c577, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 60f7f5eb544d2ca4e83a4ce065ede58a, type: 3}
+  - mName: Skateboard
+    mImage: {fileID: 21300000, guid: a7ba9bf081c24db4a9688a8856021ad6, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 04484f9b7139a194abd56cb0bc65b3c7, type: 3}
+  - mName: Snowman
+    mImage: {fileID: 21300000, guid: 685523edf26223f4580b926952884583, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 6f4ed24a3b866a549b0136c1418b78e8, type: 3}
+  - mName: Spaceship
+    mImage: {fileID: 21300000, guid: b6df4b347ebe96d498777dee87ece618, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 2cd7ed06cb5f7b6468f8024b68775cea, type: 3}
+  - mName: Staircase
+    mImage: {fileID: 21300000, guid: 96fca45825e78924c9300f5b18cf0a58, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 02e71ad21ef253642b5377354324e039, type: 3}
+  - mName: Starfish
+    mImage: {fileID: 21300000, guid: f680c26f2a6f6374a87340ea50e21c61, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 2546177c844d41b4f95efdcb9b1a375a, type: 3}
+  - mName: Strawberry
+    mImage: {fileID: 21300000, guid: 0522c4a42f1323c4295e6b5284021783, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 1625a76744b32744485328bc30c5b39f, type: 3}
+  - mName: Sunflower
+    mImage: {fileID: 21300000, guid: 2d127601e39044b4591187900f9d228a, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 0fa3a01b573fa254184a1d4d940ada5f, type: 3}
+  - mName: Sunglass
+    mImage: {fileID: 21300000, guid: 25422393f46860f41931e15fd77ae3b7, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 114553279530ad741a462480aa197e07, type: 3}
+  - mName: Superman
+    mImage: {fileID: 21300000, guid: 7f519a50d0bdbcb408b786f897990c9e, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 03d6fefae0e148343a6b87c62737aa67, type: 3}
+  - mName: Teacup
+    mImage: {fileID: 21300000, guid: 58b47dbc86145c043986a953defc2cd1, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 683bbbb6bac08304f86399f9dd0d5694, type: 3}
+  - mName: Toothbrash
+    mImage: {fileID: 21300000, guid: e897dacb67a97d941be7d88f0fea183a, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 0a49cc2cb6c47e04d9e0e5eb76d2a46f, type: 3}
+  - mName: Toothpaste
+    mImage: {fileID: 21300000, guid: ffeee037bf647164094d78a58c7afbad, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 0a49cc2cb6c47e04d9e0e5eb76d2a46f, type: 3}
+  - mName: Watermelon
+    mImage: {fileID: 21300000, guid: c127dc97cccf28b408a75e5efb6a3e86, type: 3}
+    mAudioClip: {fileID: 8300000, guid: 137cf2678fdc53d46a20f958746b2f8a, type: 3}
+  - mName: Yellow Ball
+    mImage: {fileID: 21300000, guid: b5bc38a83427aaa48b6e427f4495a6d9, type: 3}
+    mAudioClip: {fileID: 8300000, guid: cb3fb387aace3e043958d491581bccd0, type: 3}

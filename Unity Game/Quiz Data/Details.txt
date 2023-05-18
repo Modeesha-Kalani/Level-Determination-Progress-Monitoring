@@ -1,0 +1,20 @@
+Levels
+
+Sounds
+3 Letter Words
+4 Letter Words
+5 Letter Words
+Compound Words
+
+-----------------------------------------------------------------------------------------
+The quiz should have 3 questions from each level-all questions 15
+The questions should be shuffled
+Maximum time for one question is 15s
+Should show in each question if the answer is correct or wrong (showing a green tick or red cross is enogh)
+------------------------------------------------------------------------------------------
+
+Input taken for backend:'
+
+If the answer is correct or wrong
+The level of that question
+Time spent for the whole quiz by student
